@@ -1,5 +1,5 @@
 {
-  "remarks": "📌 Россия - 4 сервера с балансировкой",
+  "remarks": "📌 Россия - 4 сервера с балансировкой + дополнительные сервера",
   "dns": {
     "port": 53,
     "servers": [
@@ -50,6 +50,16 @@
           "tls",
           "quic"
         ]
+      }
+    },
+    {
+      "tag": "switch-socks",
+      "port": 10810,
+      "listen": "127.0.0.1",
+      "protocol": "socks",
+      "settings": {
+        "udp": true,
+        "auth": "noauth"
       }
     }
   ],
@@ -766,7 +776,7 @@
       "server-9-2"
     ],
     "probeURL": "https://www.google.com/generate_204",
-    "probeInterval": "30s"
+    "probeInterval": "60s"
   },
   "routing": {
     "domainStrategy": "IPIfNonMatch",
@@ -832,11 +842,152 @@
       },
       {
         "type": "field",
+        "domain": [
+          "domain:use-balancer.com"
+        ],
+        "balancerTag": "load-balancer"
+      },
+      {
+        "type": "field",
+        "domain": [
+          "domain:use-ru1.com"
+        ],
+        "outboundTag": "RU-1"
+      },
+      {
+        "type": "field",
+        "domain": [
+          "domain:use-ru2.com"
+        ],
+        "outboundTag": "RU-2"
+      },
+      {
+        "type": "field",
+        "domain": [
+          "domain:use-ru3.com"
+        ],
+        "outboundTag": "RU-3"
+      },
+      {
+        "type": "field",
+        "domain": [
+          "domain:use-ru4.com"
+        ],
+        "outboundTag": "RU-4"
+      },
+      {
+        "type": "field",
+        "domain": [
+          "domain:use-ru5.com"
+        ],
+        "outboundTag": "RU-5"
+      },
+      {
+        "type": "field",
+        "domain": [
+          "domain:use-ru6.com"
+        ],
+        "outboundTag": "RU-6-1"
+      },
+      {
+        "type": "field",
+        "domain": [
+          "domain:use-ru6-2.com"
+        ],
+        "outboundTag": "RU-6-2"
+      },
+      {
+        "type": "field",
+        "domain": [
+          "domain:use-ru7.com"
+        ],
+        "outboundTag": "RU-7"
+      },
+      {
+        "type": "field",
+        "domain": [
+          "domain:use-fi1.com"
+        ],
+        "outboundTag": "FI-1"
+      },
+      {
+        "type": "field",
+        "domain": [
+          "domain:use-fi2.com"
+        ],
+        "outboundTag": "FI-2"
+      },
+      {
+        "type": "field",
+        "domain": [
+          "domain:use-fi3.com"
+        ],
+        "outboundTag": "FI-3"
+      },
+      {
+        "type": "field",
+        "domain": [
+          "domain:use-fi4.com"
+        ],
+        "outboundTag": "FI-4"
+      },
+      {
+        "type": "field",
+        "domain": [
+          "domain:use-de1.com"
+        ],
+        "outboundTag": "DE-1"
+      },
+      {
+        "type": "field",
+        "domain": [
+          "domain:use-de2.com"
+        ],
+        "outboundTag": "DE-2"
+      },
+      {
+        "type": "field",
+        "domain": [
+          "domain:use-de3.com"
+        ],
+        "outboundTag": "DE-3"
+      },
+      {
+        "type": "field",
+        "domain": [
+          "domain:use-de4.com"
+        ],
+        "outboundTag": "DE-4"
+      },
+      {
+        "type": "field",
+        "domain": [
+          "domain:use-de5.com"
+        ],
+        "outboundTag": "DE-5"
+      },
+      {
+        "type": "field",
+        "domain": [
+          "domain:use-pl1.com"
+        ],
+        "outboundTag": "PL-1"
+      },
+      {
+        "type": "field",
         "inboundTag": [
           "socks",
           "http"
         ],
         "balancerTag": "load-balancer"
+      },
+      {
+        "type": "field",
+        "inboundTag": [
+          "switch-socks"
+        ],
+        "port": 10810,
+        "outboundTag": "RU-1"
       }
     ]
   }
