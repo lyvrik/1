@@ -1,6 +1,6 @@
-https://raw.githubusercontent.com/lyvrik/1/main/auto-1.json
-https://raw.githubusercontent.com/lyvrik/1/main/auto-2.json
-https://raw.githubusercontent.com/lyvrik/1/main/auto-3.json
-https://raw.githubusercontent.com/lyvrik/1/main/auto-4.json
-https://raw.githubusercontent.com/lyvrik/1/main/auto-5.json
-https://raw.githubusercontent.com/lyvrik/1/main/auto-6.json
+https://raw.githubusercontent.com/lyvrik/1/master/Auto-1.json
+https://raw.githubusercontent.com/lyvrik/1/master/Auto-2.json
+https://raw.githubusercontent.com/lyvrik/1/master/Auto-3.json
+https://raw.githubusercontent.com/lyvrik/1/master/Auto-4.json
+https://raw.githubusercontent.com/lyvrik/1/master/Auto-5.json
+https://raw.githubusercontent.com/lyvrik/1/master/Auto-6.json
