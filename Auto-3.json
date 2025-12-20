@@ -226,7 +226,7 @@
         "strategy": {
           "type": "leastLoad",
           "settings": {
-            "maxRTT": "1500ms",
+            "maxRTT": "1750ms",
             "tolerance": 80
           }
         }
