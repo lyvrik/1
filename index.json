@@ -1,0 +1,28 @@
+{
+  "profiles": [
+    {
+      "name": "RU — 1",
+      "url": "https://raw.githubusercontent.com/lyvrik/1/refs/heads/main/VPN1.json"
+    },
+    {
+      "name": "RU — 2",
+      "url": "https://raw.githubusercontent.com/lyvrik/1/refs/heads/main/VPN2.json"
+    },
+    {
+      "name": "RU — 3",
+      "url": "https://raw.githubusercontent.com/lyvrik/1/refs/heads/main/VPN3.json"
+    }
+    {
+      "name": "RU — 4",
+      "url": "https://raw.githubusercontent.com/lyvrik/1/refs/heads/main/VPN4.json"
+    }
+    {
+      "name": "RU — 5",
+      "url": "https://raw.githubusercontent.com/lyvrik/1/refs/heads/main/VPN5.json"
+    }
+    {
+      "name": "RU — 6",
+      "url": "https://raw.githubusercontent.com/lyvrik/1/refs/heads/main/VPN6.json"
+    }
+  ]
+}
