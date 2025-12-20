@@ -209,7 +209,7 @@
       "RU-6"
     ],
     "probeURL": "https://www.google.com/generate_204",
-    "probeInterval": "60s"
+    "probeInterval": "30s"
   },
   "routing": {
     "balancers": [

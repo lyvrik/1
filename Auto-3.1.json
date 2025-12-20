@@ -1,5 +1,5 @@
 {
-  "remarks": "🇷🇺⚡ Россия — №5",
+  "remarks": "🇷🇺⚡ Россия — №3",
   "dns": {
     "port": 53,
     "servers": [
@@ -58,142 +58,183 @@
   },
   "outbounds": [
     {
-      "tag": "server-8-1",
+      "tag": "RU-1",
       "protocol": "vless",
       "settings": {
         "vnext": [
           {
-            "address": "51.250.6.178",
-            "port": 444,
+            "address": "84.201.157.42",
+            "port": 47050,
             "users": [
               {
-                "id": "c495cf08-e046-4311-aa4b-82cc16576992",
+                "id": "a8161e89-9646-4986-bcab-d60951660c19",
                 "encryption": "none",
-                "flow": ""
+                "flow": "xtls-rprx-vision"
               }
             ]
           }
         ]
       },
       "streamSettings": {
-        "network": "grpc",
+        "network": "tcp",
         "security": "reality",
         "realitySettings": {
-          "serverName": "ads.x5.ru",
+          "serverName": "max.ru",
           "fingerprint": "chrome",
-          "shortId": "0614386789abcdef",
+          "publicKey": "8QRITg7vnAG05KsxVVK4X1OIeVdXQ_NGBLmIbx3NpTE",
+          "shortId": "6c6dde00d817b867",
           "spiderX": "/",
-          "publicKey": "L0ZCh9LynIMEkK9BZq3gC--mzL6xnR4bkBJmXHSwVCM",
           "show": false
-        },
-        "grpcSettings": {
-          "serviceName": "ads.x5.ru",
-          "multiMode": true
         }
       }
     },
     {
-      "tag": "server-8-2",
+      "tag": "RU-2",
       "protocol": "vless",
       "settings": {
         "vnext": [
           {
-            "address": "51.250.6.178",
-            "port": 446,
+            "address": "84.201.144.248",
+            "port": 443,
             "users": [
               {
-                "id": "c495cf08-e046-4311-aa4b-82cc16576992",
+                "id": "bab95321-6422-4931-bc6f-de898b5b0c0c",
                 "encryption": "none",
-                "flow": ""
+                "flow": "xtls-rprx-vision"
               }
             ]
           }
         ]
       },
       "streamSettings": {
-        "network": "grpc",
+        "network": "tcp",
         "security": "reality",
         "realitySettings": {
-          "serverName": "ads.x5.ru",
+          "serverName": "rutube.ru",
           "fingerprint": "chrome",
-          "shortId": "0512567389abcdef",
-          "spiderX": "/",
-          "publicKey": "mMaSUsOC5i3ErLDcaWW9UOOjG0fcKPCwVjzGS1wXQx8",
+          "publicKey": "uHtKdqDtB0lpeS583-IqSyBX3FGNJNtUODvXgHB0Ch8",
+          "shortId": "0554f442e61a",
           "show": false
-        },
-        "grpcSettings": {
-          "serviceName": "ads.x5.ru",
-          "multiMode": true
         }
       }
     },
     {
-      "tag": "server-9-1",
+      "tag": "RU-3",
       "protocol": "vless",
       "settings": {
         "vnext": [
           {
-            "address": "51.250.75.169",
-            "port": 444,
+            "address": "51.250.75.158",
+            "port": 443,
             "users": [
               {
-                "id": "c495cf08-e046-4311-aa4b-82cc16576992",
+                "id": "76f385df-bb5c-4e92-b60b-fce540b0a6a0",
                 "encryption": "none",
-                "flow": ""
+                "flow": "xtls-rprx-vision"
               }
             ]
           }
         ]
       },
       "streamSettings": {
-        "network": "grpc",
+        "network": "tcp",
         "security": "reality",
         "realitySettings": {
-          "serverName": "ads.x5.ru",
+          "serverName": "api-maps.yandex.ru",
           "fingerprint": "chrome",
-          "shortId": "0614386789abcdef",
-          "spiderX": "/",
-          "publicKey": "L0ZCh9LynIMEkK9BZq3gC--mzL6xnR4bkBJmXHSwVCM",
+          "publicKey": "FkmYFobwxLMLEktYXywmjthuEYCZggITsxwPNasTKUg",
+          "shortId": "3f200574d011010f",
           "show": false
-        },
-        "grpcSettings": {
-          "serviceName": "ads.x5.ru",
-          "multiMode": true
         }
       }
     },
     {
-      "tag": "server-9-2",
+      "tag": "RU-4",
       "protocol": "vless",
       "settings": {
         "vnext": [
           {
-            "address": "51.250.75.169",
-            "port": 446,
+            "address": "84.201.158.192",
+            "port": 443,
             "users": [
               {
-                "id": "c495cf08-e046-4311-aa4b-82cc16576992",
+                "id": "686988e8-0793-4ddd-80ae-b15dfc60067a",
                 "encryption": "none",
-                "flow": ""
+                "flow": "xtls-rprx-vision"
               }
             ]
           }
         ]
       },
       "streamSettings": {
-        "network": "grpc",
+        "network": "tcp",
         "security": "reality",
         "realitySettings": {
           "serverName": "ads.x5.ru",
           "fingerprint": "chrome",
-          "shortId": "0512567389abcdef",
-          "spiderX": "/",
-          "publicKey": "mMaSUsOC5i3ErLDcaWW9UOOjG0fcKPCwVjzGS1wXQx8",
+          "publicKey": "10rVZPoOUP1TlQviIAsQ_jAROX0fRQxH0C92nq_zGQc",
+          "shortId": "43dcff53849b81e6",
           "show": false
-        },
-        "grpcSettings": {
-          "serviceName": "ads.x5.ru",
-          "multiMode": true
+        }
+      }
+    },
+    {
+      "tag": "RU-5",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "5.188.140.63",
+            "port": 443,
+            "users": [
+              {
+                "id": "76f385df-bb5c-4e92-b60b-fce540b0a6a0",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "m.vk.com",
+          "fingerprint": "chrome",
+          "publicKey": "FkmYFobwxLMLEktYXywmjthuEYCZggITsxwPNasTKUg",
+          "shortId": "95ec618532fa065e",
+          "show": false
+        }
+      }
+    },
+    {
+      "tag": "RU-6",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "62.113.42.65",
+            "port": 42275,
+            "users": [
+              {
+                "id": "ded39de0-6d5e-426b-90e8-b7dfeced29b2",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "eh.vk.com",
+          "fingerprint": "chrome",
+          "publicKey": "5Z8mktBAXgz88xCibv79NncelOS-3WAunfZNKnJRdUM",
+          "shortId": "08",
+          "show": false
         }
       }
     },
@@ -214,10 +255,12 @@
   ],
   "observatory": {
     "subjectSelector": [
-      "server-8-1",
-      "server-8-2",
-      "server-9-1",
-      "server-9-2"
+      "RU-1",
+      "RU-2",
+      "RU-3",
+      "RU-4",
+      "RU-5",
+      "RU-6"
     ],
     "probeURL": "https://www.google.com/generate_204",
     "probeInterval": "30s"
@@ -227,12 +270,14 @@
     "domainMatcher": "hybrid",
     "balancers": [
       {
-        "tag": "load-balancer",
+        "tag": "ru-reality-balancer",
         "selector": [
-          "server-8-1",
-          "server-8-2",
-          "server-9-1",
-          "server-9-2"
+          "RU-1",
+          "RU-2",
+          "RU-3",
+          "RU-4",
+          "RU-5",
+          "RU-6"
         ],
         "strategy": {
           "type": "leastLoad",
@@ -290,7 +335,7 @@
           "socks",
           "http"
         ],
-        "balancerTag": "load-balancer"
+        "balancerTag": "ru-reality-balancer"
       }
     ]
   }
