@@ -1,3 +1,6 @@
+#profile-title: 🕊️ Free VPN (RU)
+#profile-update-interval: 12
+#profile-description: ⚡ = >24 Mbit/s
 vless://b95a44a7-c684-407b-b57e-e1681d69de90@84.201.139.151:443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=api-maps.yandex.ru&fp=chrome&security=reality&pbk=5t7fY--rTZaEDvoEI_3A0uPlBQmFaZe8frAarvzdazM&sid=79a5e503d227e5c4#🇷🇺 Russia - #1
 vless://dbb75f89-dc6b-4d52-84f8-935b80bd3a42@158.160.199.84:8443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=tradingview.com&fp=chrome&security=reality&pbk=zr8_rtHm86s_G1gfRwNtunStGngYZSdYkA3PyBFXpDg&sid=04bf0403f96e5b4b#🇷🇺 Russia - #2
 vless://b3250f76-ca6f-453e-b2d6-39de95d3fc4b@158.160.196.107:443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=tradingview.com&fp=chrome&security=reality&pbk=zr8_rtHm86s_G1gfRwNtunStGngYZSdYkA3PyBFXpDg&sid=28047c78b3f5ee2c#🇷🇺 Russia - #3
